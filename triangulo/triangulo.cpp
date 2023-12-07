@@ -30,7 +30,7 @@ int main(int argc, char**  argv){
     glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition(50,50);
     glutInitWindowSize(400,300);
-    glutCreateWindow("Triângulo - Questão 1");
+    glutCreateWindow("Questão 01 - Triângulo");
 
     init();
     glutDisplayFunc(display);
