@@ -58,7 +58,7 @@ int main(int argc, char**  argv){
     glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition(50,50);
     glutInitWindowSize(400,300);
-    glutCreateWindow("Palito - Questão 2");
+    glutCreateWindow("Questão 2- Palito");
 
     init();
     glutDisplayFunc(display);
