@@ -10,7 +10,7 @@ int init(void){
 }
 
 void display(void){
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BITS);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glColor3f(1.0, 0.0, 0.0);
 
@@ -23,6 +23,7 @@ void display(void){
     glEnd();
 
     // Corpo
+    glLineWidth(4.0);
     glBegin(GL_LINES);
         glVertex2f(0.0, 6);
         glVertex2f(0, 2);
