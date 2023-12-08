@@ -6,7 +6,7 @@ int init(void){
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(-10.0,10.0,-10.0,10.0);
+    gluOrtho2D(-10.0,10.0,-10.0,12.0);
 }
 
 void display(void){
