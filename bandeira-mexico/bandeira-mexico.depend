@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1701994418 source:c:\users\bruna - ufca\documents\2023-2-computacao-grafica\atividade01\bandeira-alemanha\main.cpp
+1702211286 source:c:\users\bruna - ufca\documents\2023-2-computacao-grafica\atividade01\bandeira-mexico\mexico.cpp
 	<windows.h>
 	<GL/glut.h>
 
@@ -22,8 +22,4 @@
 1701908762 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
-
-1702211309 source:c:\users\bruna - ufca\documents\2023-2-computacao-grafica\atividade01\bandeira-alemanha\alemanha.cpp
-	<windows.h>
-	<GL/glut.h>
 

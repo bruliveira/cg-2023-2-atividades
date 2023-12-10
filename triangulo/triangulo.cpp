@@ -4,7 +4,6 @@
 int init(void)
 {
     glClearColor(0.0, 0.0, 0.0, 0.0); // Cor de fundo preta
-
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluOrtho2D(-10.0, 10.0, -10.0, 12.0);
@@ -33,7 +32,7 @@ int main(int argc, char **argv)
     glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition(50, 50);
     glutInitWindowSize(400, 300);
-    glutCreateWindow("Questão 1 - Triângulo");
+    glutCreateWindow("Triângulo");
 
     init();
     glutDisplayFunc(display);
