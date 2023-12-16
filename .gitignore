@@ -40,3 +40,5 @@ deps/
 # Arquivos Pessoais de Configuração
 *.user
 *.suo
+
+*.layout
