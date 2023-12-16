@@ -1,0 +1,42 @@
+# Arquivos de Saída de Compilação
+bin/
+build/
+*.exe
+*.out
+*.so
+*.dll
+
+# Arquivos de Configuração do Ambiente
+.vscode/
+.idea/
+
+# Arquivos de Configuração do Compilador
+.project
+.cproject
+
+# Arquivos Temporários
+*.o
+*.obj
+*.tmp
+
+# Arquivos de Log
+*.log
+
+# Pasta de Dependências Externas
+lib/
+deps/
+
+# Arquivos de Configuração do Git
+.gitattributes
+.gitmodules
+
+# Arquivos de Saída de Texto
+*.txt
+
+# Arquivos de Backup
+*.bak
+*~
+
+# Arquivos Pessoais de Configuração
+*.user
+*.suo
