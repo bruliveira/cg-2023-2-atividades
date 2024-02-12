@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1707762028 source:c:\users\bruna\documentos\01_ufca\2023-2-computacao_grafica\02-viewport\atv-viewport\main.c
+	<windows.h>
+	<stdio.h>
+	<GL/glut.h>
+
